@@ -1,0 +1,267 @@
+/*for the ordered question list*/
+ol {
+    list-style-type: upper-alpha;
+    font-size: 22px;
+    margin: 10px;
+}
+
+/*space out the answers a little.*/
+li {
+    margin-top: 10px;
+}
+
+
+/*need to use this so the player boxes work correctly*/
+html,
+body {
+
+    margin: 10px;
+    font: 13px/22px 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
+    height: 90%;
+    min-height: 90%;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+
+/*player 1 area*/
+#player-1 {
+    margin: auto;
+    float: left;
+    width: 47%;
+    background-color: #1f1f1f;
+    color: white;
+    height: 80%;
+    min-height: 80%;
+    border-style: solid;
+    border-color: #1f1f1f;
+    border-radius: 2%;
+}
+
+/*its the div between each player area*/
+#middle-div {
+    margin: auto;
+    height: 80%;
+    float: left;
+    width: 2%;
+
+    min-width: 2%;
+    background-color: white;
+}
+
+/*player 2 total div area*/
+#player-2 {
+    margin: auto;
+    float: left;
+
+    width: 47%;
+    background-color: #1f1f1f;
+    color: white;
+    min-height: 80%;
+    height: 80%;
+    border-style: solid;
+    border-color: #1f1f1f;
+    border-radius: 2%;
+}
+
+/*this contains both of the player boxes, footer, header*/
+#center-div {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+
+}
+
+/*some info messages will appear here*/
+#header {
+    background-color: transparent;
+    min-height: 10%;
+}
+
+/*a lot of non-player buttons appear here*/
+#footer {
+    clear: both;
+    margin: auto;
+
+    height: 20%;
+
+    width: 100%;
+
+
+
+}
+
+/*these contain the Player 1/Player2 title*/
+.player-title {
+    border-style: solid;
+    border-color: #1f1f1f;
+    background-color: white;
+    width: 99.4%;
+    color: black;
+    border-radius: 4%;
+}
+
+/*player buttons and question/answers*/
+.sub-player {
+    height: 80%;
+    margin: auto;
+
+    width: 90%;
+}
+
+/*specifically just questions div*/
+.questions-div {
+    margin: auto;
+    height: 50%;
+
+    min-height: 50%;
+    min-width: 100%;
+
+}
+
+
+/*all text within player divs*/
+.player-text {
+    margin: 5px;
+}
+
+/*all buttons*/
+button {
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 0px;
+    text-decoration: none;
+    padding: 12px 40px;
+    font-size: 12px;
+    line-height: 19px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+
+
+
+/*the player buttons will be same colour as background*/
+.play-btn {
+    border: solid 2px #fff;
+    background: transparent;
+    color: #fff !important;
+}
+
+/*when hover they swap from black to white highlight*/
+.play-btn:hover {
+    border: solid 2px #fff;
+    background: #fff;
+    color: #1f1f1f !important;
+}
+
+
+/*these buttons act the opposite to the player buttons*/
+.foot-btn {
+    margin: 10px;
+    margin-top: 40px;
+    border: solid 2px #1f1f1f;
+    background: white;
+    color: #1f1f1f;
+
+}
+/*when hovered, go from white to black*/
+.foot-btn:hover {
+    border: solid 2px #1f1f1f;
+    background: #1f1f1f;
+    color: #fff;
+}
+
+/*when disabled, they'll be greyed out*/
+button:disabled,
+button[disabled] {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+
+/*this keeps the text that appears in the headers neat*/
+#head-1 {
+    float: left;
+    width: 50%;
+}
+
+/*ditto*/
+#head-2 {
+    float: left;
+    width: 50%;
+}
+
+/*these footers keep the buttons and text at the footer neat*/
+#foot-1 {
+    float: left;
+
+    width: 50%;
+    min-height: 100%;
+}
+
+
+#foot-2 {
+    float: left;
+
+    width: 25%;
+    min-height: 100%;
+}
+
+
+#foot-3 {
+    float: left;
+    width: 25%;
+    min-height: 100%;
+}
+
+/*This lets the player know how much they win, and handles some other functionality*/
+#money-value {
+    margin-top: 30px;
+}
+
+/*top right text*/
+#money-for-grabs {
+    float: right;
+    margin-right: 10%;
+
+}
+
+
+
+/*these are the colors for the dropdown boxes.*/
+#wins{
+    background-color: #1f1f1f;
+    color:white;
+    font-family: Arial;
+}
+
+#timer{
+    background-color: #1f1f1f;
+    color:white;
+    font-family: Arial;
+    padding-left: 10px;
+    padding-right:10px;
+
+}
+
+#timer-min{
+    background-color: #1f1f1f;
+    color:white;
+    font-family: Arial;
+    padding-left: 10px;
+    padding-right:10px;
+    
+}
